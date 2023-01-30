@@ -2,3 +2,60 @@
     height: 400px;
     background-image: url('/resources/img/jumbotron.jpg');
 }
+
+.lower_main {
+
+    background-color: $secondary;
+
+    .container {
+
+        h1 {
+            color: white;
+            background-color: $brand_color;
+            width: 250px;
+            text-align: center;
+            position: relative;
+            bottom: 20px;
+        }
+
+        .cards_container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .cards {
+                width: calc(100% / 6);
+                margin-bottom: 30px;
+
+                .cards-img {
+                    width: 100%;
+
+                    img {
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+
+                .cards-text {
+                    color: white;
+                    width: 100%;
+                    font-size: 12px;
+                }
+            }
+
+            button {
+                background-color: $brand_color;
+                padding: 10px;
+                width: 250px;
+                margin: 50px 0 20px;
+
+                a {
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+        }
+
+    }
+}
