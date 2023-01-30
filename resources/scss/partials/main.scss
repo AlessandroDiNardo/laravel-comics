@@ -1,9 +1,11 @@
-.upper_main {
+// jumbo main
+.jumbo_main {
     height: 400px;
     background-image: url('/resources/img/jumbotron.jpg');
 }
 
-.lower_main {
+// cards main
+.cards_main {
 
     background-color: $secondary;
 
@@ -55,6 +57,35 @@
                 }
             }
         }
+    }
+}
 
+// info main
+.info_main {
+    background-color: $brand_color;
+
+    .info_container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px 0;
+
+        .info_card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-size: 12px;
+            width: 100%;
+
+            img {
+                width: 20%;
+            }
+
+            &:nth-last-child(2) img {
+                width: 13%;
+            }
+        }
     }
 }
