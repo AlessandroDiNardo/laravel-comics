@@ -22,5 +22,6 @@
     </head>
     <body>
         @include("components/header")
+        @include("components/main")
     </body>
 </html>
