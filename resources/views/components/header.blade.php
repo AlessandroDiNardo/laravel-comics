@@ -1,7 +1,9 @@
 <div class="container">
     <div class="header-adjustments">
         <div class="logo">
-          <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo">
+          <a href="http://localhost:8000/">
+            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo">
+          </a>
         </div>
         <nav class="nav">
             <ul>
