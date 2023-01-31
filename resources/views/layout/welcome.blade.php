@@ -24,6 +24,7 @@
         @include("components/header")
         @include("components/jumbo")
         @yield('home_content')
+        @yield('comic_content')
         @include("components/info")
         @include("components/footer")
     </body>

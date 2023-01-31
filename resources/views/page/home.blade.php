@@ -222,12 +222,14 @@ $comics = [
         <div class="cards_container">
             @foreach ($comics as $comic)
             <div class="cards">
-                <div class="cards-img">
-                    <img src="{{ $comic['thumb']}}" alt="{{$comic['title']}}">
-                </div>
-                <div class="cards-text">
-                    {{$comic['title']}}
-                </div>
+                <a href="comic">
+                    <div class="cards-img">
+                        <img src="{{ $comic['thumb']}}" alt="{{$comic['title']}}">
+                    </div>
+                    <div class="cards-text">
+                        {{$comic['title']}}
+                    </div>
+                </a>
             </div>
             @endforeach
             <button>
